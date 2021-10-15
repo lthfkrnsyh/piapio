@@ -1,0 +1,149 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>Home Sales & Marketing</title>
+  </head>
+  <body>
+    <!-- NAVBAR & DROPDOWNS -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">Sistem Informasi Sales & Marketing</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Dropdowns menu -->
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Advertising</a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="Advertising.html">Digital Marketing</a></li>
+                <li><a class="dropdown-item" href="Advertising.html">Offering & Consultant</a></li>
+              </ul>
+            </li>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/PIO/" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Accounting</a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="Accounting.html">Transaction</a></li>
+                      <li><a class="dropdown-item" href="Accounting.html">Profit & Income</a></li>
+                      <li><a class="dropdown-item" href="Accounting.html">stock Exchange</a></li>
+                    </ul>
+                  </li>
+                  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Product</a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a class="dropdown-item" href="Product.html">Stock Product</a></li>
+                          <li><a class="dropdown-item" href="Product.html">Description Product</a></li>
+                        </ul>
+                      </li>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Market segmentation</a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Dealler</a></li>
+                              <li><a class="dropdown-item" href="#">exhibition</a></li>
+                            </ul>
+                          </li>
+                          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Orders</a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                                  <li><a class="dropdown-item" href="#">Cart</a></li>
+                                </ul>
+                              </li>
+                              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Login</a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                      <li><a class="dropdown-item" href="/PIO/Loginstaff.html">Staff</a></li>
+                                      <li><a class="dropdown-item" href="/PIO/Loginmember.html">Member</a></li>
+                                    </ul>
+                                  </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="orders">
+        <h2 class="wishlist">Wishlist Unit</h2>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="piapio@gmail.com">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Kingwan">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">Wishlist Unit</label>
+            <input type="text" class="form-control" id="wishlistunit" placeholder="New Toyota Avanza">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">Type Unit</label>
+            <input type="text" class="form-control" id="typeunit" placeholder="MVP/SUV/Sedan/Sport">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Spesific Address</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="Jakarta">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">District</label>
+          <select id="inputState" class="form-select">
+            <option selected>-</option>
+            <option>Center Jakarta</option>
+            <option>South Jakarta</option>
+            <option>North Jakarta</option>
+            <option>East Jakarta</option>
+            <option>West Jakarta</option>
+
+          </select>
+        </div>
+        <div class="col-6">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+       
+    
+    <!-- Footer -->
+    <footer class="bg-secondary text-center pb-5">
+      <p>Created With love by <a class="text-white fw-bold">Team 1</a></p>
+      </footer>
+      <!-- Akhir footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
